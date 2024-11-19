@@ -1,0 +1,91 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(180, 180, 180);
+    padding: 20px;
+}
+
+/* Estilo do cabeçalho */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Estilo principal */
+main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tabela de produtos */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+/* Estilo para imagens */
+td img {
+    max-width: 80px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Input da quantidade */
+input.quantidade {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+}
+
+/* Estiliza o botão de remover */
+button.remover-produto {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.remover-produto:hover {
+    background-color: #c0392b;
+}
+
+/* Estiliza o total final */
+.total-final {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.total-final h3 {
+    color: #333;
+}
+
+#total-final {
+    color: #e74c3c;
+}
